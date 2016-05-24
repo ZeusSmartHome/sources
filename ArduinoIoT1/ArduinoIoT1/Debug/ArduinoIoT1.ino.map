@@ -1935,11 +1935,11 @@ LOAD c:/users/otavi/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi
                 0x2000013c                __bss_start__ = .
  *(.bss*)
  .bss           0x2000013c       0x1c c:/users/otavi/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
- .bss.pinState  0x20000158       0x58 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
-                0x20000158                pinState
- .bss.__VMicro_GLastMillis2__
-                0x200001b0        0x4 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
-                0x200001b0                __VMicro_GLastMillis2__
+ .bss.__VMicro_GLastMillis3__
+                0x20000158        0x4 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
+                0x20000158                __VMicro_GLastMillis3__
+ .bss.pinState  0x2000015c       0x58 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
+                0x2000015c                pinState
  .bss.previousMillis
                 0x200001b4        0x4 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
                 0x200001b4                previousMillis
@@ -2591,8 +2591,8 @@ IPAddress::IPAddress()                            C:\Users\otavi\AppData\Local\T
 IPAddress::IPAddress(unsigned char const*)        C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned char const*)        C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
-                                                  C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Firmata\utility\EthernetClientStream.cpp.o
 IPAddress::IPAddress(unsigned char, unsigned char, unsigned char, unsigned char) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
+                                                  C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Firmata\utility\EthernetClientStream.cpp.o
 IPAddress::IPAddress(unsigned long)               C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
 IPAddress::IPAddress(unsigned long)               C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
 IPAddress::fromString(char const*)                C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(IPAddress.cpp.o)
@@ -2660,9 +2660,9 @@ Print::write(unsigned char const*, unsigned int)  C:\Users\otavi\AppData\Local\T
 RTC_Handler                                       C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(cortex_handlers.c.o)
 Reset_Handler                                     C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(cortex_handlers.c.o)
 RingBuffer::RingBuffer()                          C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(RingBuffer.cpp.o)
+RingBuffer::RingBuffer()                          C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(RingBuffer.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Wire\Wire.cpp.o
-RingBuffer::RingBuffer()                          C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(RingBuffer.cpp.o)
 RingBuffer::available()                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(RingBuffer.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Wire\Wire.cpp.o
@@ -2689,8 +2689,8 @@ SERCOM4_Handler                                   C:\Users\otavi\AppData\Local\T
 SERCOM5_Handler                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(variant.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(cortex_handlers.c.o)
 SERCOM::SERCOM(Sercom*)                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(SERCOM.cpp.o)
-SERCOM::SERCOM(Sercom*)                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(SERCOM.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(variant.cpp.o)
+SERCOM::SERCOM(Sercom*)                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(SERCOM.cpp.o)
 SERCOM::acknowledgeUARTError()                    C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(SERCOM.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
 SERCOM::availableDataUART()                       C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(SERCOM.cpp.o)
@@ -2815,8 +2815,8 @@ Serial_::stopbits()                               C:\Users\otavi\AppData\Local\T
 Serial_::write(unsigned char const*, unsigned int) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(CDC.cpp.o)
 Serial_::write(unsigned char)                     C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(CDC.cpp.o)
 Servo::Servo()                                    C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Servo\samd\Servo.cpp.o
-                                                  C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 Servo::Servo()                                    C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Servo\samd\Servo.cpp.o
+                                                  C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 Servo::attach(int)                                C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Servo\samd\Servo.cpp.o
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 Servo::attach(int, int, int)                      C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\Servo\samd\Servo.cpp.o
@@ -2925,8 +2925,8 @@ USB_SetHandler                                    C:\Users\otavi\AppData\Local\T
 Uart::IrqHandler()                                C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(variant.cpp.o)
 Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
-Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
                                                   C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(variant.cpp.o)
+Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad) C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
 Uart::available()                                 C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
 Uart::begin(unsigned long)                        C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
 Uart::begin(unsigned long, unsigned short)        C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(Uart.cpp.o)
@@ -2992,7 +2992,7 @@ _CDC_GetInterfaceLength()                         C:\Users\otavi\AppData\Local\T
 _Jv_RegisterClasses                               c:/users/otavi/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtbegin.o
 _PathLocale                                       c:/users/otavi/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-locale.o)
 __StackTop                                        C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000/core.a(cortex_handlers.c.o)
-__VMicro_GLastMillis2__                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
+__VMicro_GLastMillis3__                           C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 __VisualMicro_DEBUG_1_HITCOUNTER__                C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 __VisualMicro_DEBUG_1_HITCOUNTER___COMPLETE       C:\Users\otavi\AppData\Local\Temp\VMicroBuilds\ArduinoIoT1\mkr1000\ArduinoIoT1.cpp.o
 __aeabi_cdcmpeq                                   c:/users/otavi/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
